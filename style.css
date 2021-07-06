@@ -2,7 +2,7 @@ body{
     font-family: "Times New Roman", Times, serif;
     margin:0;
 }
-section{
+.flexible-container{
     display: flex;
 }
 .top-banner{
@@ -20,9 +20,6 @@ section{
 .half-width img{
     width: 80%;
 }
-#center{
-    text-align: center;
-}
 
 .link-buttom{
     text-decoration: none;
@@ -36,4 +33,23 @@ section{
       background-image: url(images/shapes/Group\ 8448.png);
       background-position: left;
       background-repeat: no-repeat;
+      margin: 30px;
+    
   }
+  section{
+      display: flex;
+  }
+.half-half{
+    width: 33.3%;
+}
+.recepies{
+    width: 25%;
+    margin: 50px 10px;
+}
+.img{
+    border-radius: 40%;
+}
+.rece{
+    text-align: center;
+    color: chartreuse;
+}
